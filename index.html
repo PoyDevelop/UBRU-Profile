@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cherdsakun Chanlutin - Profile</title>
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <style>
+      * {
+        font-family: "Kanit", sans-serif;
+      }
+
+      #main {
+        height: 100vh;
+        overflow: hidden;
+        overflow-y: scroll;
+      }
+
+      .wrapper {
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(180deg, #04fafd, 5%, #119dff, 50%, #030423);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -100;
+      }
+      .wrapper div {
+        height: 60px;
+        width: 60px;
+        border: 2px solid rgba(255, 255, 255, 0.7);
+        border-radius: 50px;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        animation: 4s linear infinite;
+      }
+      div.dot {
+        height: 10px;
+        width: 10px;
+        border-radius: 50px;
+        background: rgba(255, 255, 255, 0.5);
+        position: absolute;
+        top: 20%;
+        right: 20%;
+      }
+      .wrapper div:nth-child(1) {
+        top: 20%;
+        left: 20%;
+        animation: animate 8s linear infinite;
+      }
+      .wrapper div:nth-child(2) {
+        top: 60%;
+        left: 80%;
+        animation: animate 10s linear infinite;
+      }
+      .wrapper div:nth-child(3) {
+        top: 40%;
+        left: 40%;
+        animation: animate 3s linear infinite;
+      }
+      .wrapper div:nth-child(4) {
+        top: 66%;
+        left: 30%;
+        animation: animate 7s linear infinite;
+      }
+      .wrapper div:nth-child(5) {
+        top: 90%;
+        left: 10%;
+        animation: animate 9s linear infinite;
+      }
+      .wrapper div:nth-child(6) {
+        top: 30%;
+        left: 60%;
+        animation: animate 5s linear infinite;
+      }
+      .wrapper div:nth-child(7) {
+        top: 70%;
+        left: 20%;
+        animation: animate 8s linear infinite;
+      }
+      .wrapper div:nth-child(8) {
+        top: 75%;
+        left: 60%;
+        animation: animate 10s linear infinite;
+      }
+      .wrapper div:nth-child(9) {
+        top: 50%;
+        left: 50%;
+        animation: animate 6s linear infinite;
+      }
+      .wrapper div:nth-child(10) {
+        top: 45%;
+        left: 20%;
+        animation: animate 10s linear infinite;
+      }
+      .wrapper div:nth-child(11) {
+        top: 10%;
+        left: 90%;
+        animation: animate 9s linear infinite;
+      }
+      .wrapper div:nth-child(12) {
+        top: 20%;
+        left: 70%;
+        animation: animate 7s linear infinite;
+      }
+      .wrapper div:nth-child(13) {
+        top: 20%;
+        left: 20%;
+        animation: animate 8s linear infinite;
+      }
+      .wrapper div:nth-child(14) {
+        top: 60%;
+        left: 5%;
+        animation: animate 6s linear infinite;
+      }
+      .wrapper div:nth-child(15) {
+        top: 90%;
+        left: 80%;
+        animation: animate 9s linear infinite;
+      }
+      @keyframes animate {
+        0% {
+          transform: scale(0) translateY(0) rotate(70deg);
+        }
+        100% {
+          transform: scale(1.3) translateY(-100px) rotate(360deg);
+        }
+      }
+
+      /* loading */
+      .preload {
+        z-index: 9999;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: opacity 0.5s ease;
+      }
+
+      .preload h3 {
+        position: absolute;
+        top: 75%;
+        transform: translateY(-75%);
+        color: white;
+        font-size: 40px;
+        font-family: sans-serif;
+      }
+
+      .preload-finish {
+        opacity: 0;
+        pointer-events: none;
+      }
+    </style>
+    <style type="text/css">
+      @keyframes ldio-4fuj2g9czkd {
+        0% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+      .ldio-4fuj2g9czkd div {
+        left: 94px;
+        top: 48px;
+        position: absolute;
+        animation: ldio-4fuj2g9czkd linear 1s infinite;
+        background: #fe718d;
+        width: 12px;
+        height: 24px;
+        border-radius: 6px / 12px;
+        transform-origin: 6px 52px;
+      }
+      .ldio-4fuj2g9czkd div:nth-child(1) {
+        transform: rotate(0deg);
+        animation-delay: -0.9166666666666666s;
+        background: #fe718d;
+      }
+      .ldio-4fuj2g9czkd div:nth-child(2) {
+        transform: rotate(30deg);
+        animation-delay: -0.8333333333333334s;
+        background: #fe718d;
+      }
+      .ldio-4fuj2g9czkd div:nth-child(3) {
+        transform: rotate(60deg);
+        animation-delay: -0.75s;
+        background: #fe718d;
+      }
+      .ldio-4fuj2g9czkd div:nth-child(4) {
+        transform: rotate(90deg);
+        animation-delay: -0.6666666666666666s;
+        background: #fe718d;
+      }
+      .ldio-4fuj2g9czkd div:nth-child(5) {
+        transform: rotate(120deg);
+        animation-delay: -0.5833333333333334s;
+        background: #fe718d;
+      }
+      .ldio-4fuj2g9czkd div:nth-child(6) {
+        transform: rotate(150deg);
+        animation-delay: -0.5s;
+        background: #fe718d;
+      }
+      .ldio-4fuj2g9czkd div:nth-child(7) {
+        transform: rotate(180deg);
+        animation-delay: -0.4166666666666667s;
+        background: #fe718d;
+      }
+      .ldio-4fuj2g9czkd div:nth-child(8) {
+        transform: rotate(210deg);
+        animation-delay: -0.3333333333333333s;
+        background: #fe718d;
+      }
+      .ldio-4fuj2g9czkd div:nth-child(9) {
+        transform: rotate(240deg);
+        animation-delay: -0.25s;
+        background: #fe718d;
+      }
+      .ldio-4fuj2g9czkd div:nth-child(10) {
+        transform: rotate(270deg);
+        animation-delay: -0.16666666666666666s;
+        background: #fe718d;
+      }
+      .ldio-4fuj2g9czkd div:nth-child(11) {
+        transform: rotate(300deg);
+        animation-delay: -0.08333333333333333s;
+        background: #fe718d;
+      }
+      .ldio-4fuj2g9czkd div:nth-child(12) {
+        transform: rotate(330deg);
+        animation-delay: 0s;
+        background: #fe718d;
+      }
+      .loadingio-spinner-spinner-kryr7r6lbdk {
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+        overflow: hidden;
+        background: #ffffff;
+      }
+      .ldio-4fuj2g9czkd {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        transform: translateZ(0) scale(1);
+        backface-visibility: hidden;
+        transform-origin: 0 0; /* see note above */
+      }
+      .ldio-4fuj2g9czkd div {
+        box-sizing: content-box;
+      }
+      /* generated by https://loading.io/ */
+    </style>
+  </head>
+  <body>
+    <div class="preload">
+      <div class="loadingio-spinner-spinner-kryr7r6lbdk">
+        <div class="ldio-4fuj2g9czkd">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+    <section id="main">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col">
+            <nav aria-label="breadcrumb" class="bg-light rounded-3 p-3 mb-4">
+              <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item active" aria-current="page">
+                  <div class="w-100">
+                    <span>วิชาเทคโนโลยีเครือข่ายสังคม (5691207)</span>
+                  </div>
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card mb-4">
+              <div class="card-body text-center">
+                <img
+                  src="https://avatars.githubusercontent.com/u/26118893?v=4"
+                  alt="avatar"
+                  class="rounded-circle img-fluid"
+                  style="width: 150px"
+                />
+                <h5 class="my-3">Cherdsakun Chanlutin</h5>
+                <p class="text-muted mb-1">Full Stack Developer</p>
+                <p class="text-muted mb-4">
+                  Detudom, Ubonratchathanee, Thailand
+                </p>
+                <div class="d-flex justify-content-center mb-2">
+                  <a
+                    href="https://web.facebook.com/poykungz/"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >Follow</a
+                  >
+                  <a
+                    href="http://m.me/duckprogrammer"
+                    target="_blank"
+                    class="btn btn-outline-primary ms-1"
+                  >
+                    Message
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-4 mb-lg-0">
+              <div class="card-body p-0">
+                <ul class="list-group list-group-flush rounded-3">
+                  <li
+                    class="list-group-item d-flex justify-content-between align-items-center p-3"
+                  >
+                    <i class="fas fa-globe fa-lg text-warning"></i>
+                    <a href="https://www.poydev.com" target="_blank">
+                      <p class="mb-0">https://www.poydev.com</p>
+                    </a>
+                  </li>
+                  <li
+                    class="list-group-item d-flex justify-content-between align-items-center p-3"
+                  >
+                    <i class="fab fa-github fa-lg" style="color: #333333"></i>
+                    <a href="https://github.com/PoyDevelop" target="_blank">
+                      <p class="mb-0">PoyDev</p>
+                    </a>
+                  </li>
+                  <li
+                    class="list-group-item d-flex justify-content-between align-items-center p-3"
+                  >
+                    <i class="fab fa-twitter fa-lg" style="color: #55acee"></i>
+                    <a href="https://twitter.com/poydevelop" target="_blank">
+                      <p class="mb-0">@poydevelop</p>
+                    </a>
+                  </li>
+                  <li
+                    class="list-group-item d-flex justify-content-between align-items-center p-3"
+                  >
+                    <i
+                      class="fab fa-facebook-f fa-lg"
+                      style="color: #3b5998"
+                    ></i>
+                    <a
+                      href="https://web.facebook.com/poykungz/"
+                      target="_blank"
+                    >
+                      <p class="mb-0">Cherdsakun Chanlutin</p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="card mb-4">
+                  <div class="card-body">
+                    <div class="row text-center">
+                      <div
+                        class="fb-page"
+                        data-href="https://www.facebook.com/duckprogrammer"
+                        data-tabs="timeline"
+                        data-width=""
+                        data-height=""
+                        data-small-header="false"
+                        data-adapt-container-width="true"
+                        data-hide-cover="false"
+                        data-show-facepile="true"
+                      >
+                        <blockquote
+                          cite="https://www.facebook.com/duckprogrammer"
+                          class="fb-xfbml-parse-ignore"
+                        >
+                          <a href="https://www.facebook.com/duckprogrammer"
+                            >โปรแกรมเมอร์เป็ดๆ</a
+                          >
+                        </blockquote>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="card mb-4">
+                  <div class="card-body">
+                    <div class="row">
+                      <div
+                        class="fb-page"
+                        data-href="https://www.facebook.com/POYSoftware"
+                        data-tabs="timeline"
+                        data-width=""
+                        data-height=""
+                        data-small-header="false"
+                        data-adapt-container-width="true"
+                        data-hide-cover="false"
+                        data-show-facepile="true"
+                      >
+                        <blockquote
+                          cite="https://www.facebook.com/POYSoftware"
+                          class="fb-xfbml-parse-ignore"
+                        >
+                          <a href="https://www.facebook.com/POYSoftware"
+                            >พีโอวายซอฟท์ โปรแกรมขายสินค้า ร้านอาหาร
+                            รับเขียนโปรแกรม</a
+                          >
+                        </blockquote>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="card mb-4">
+                  <div class="card-body">
+                    <div class="row">
+                      <div
+                        class="fb-page"
+                        data-href="https://www.facebook.com/Chetcoffeeroaster"
+                        data-tabs="timeline"
+                        data-width=""
+                        data-height=""
+                        data-small-header="false"
+                        data-adapt-container-width="true"
+                        data-hide-cover="false"
+                        data-show-facepile="true"
+                      >
+                        <blockquote
+                          cite="https://www.facebook.com/Chetcoffeeroaster"
+                          class="fb-xfbml-parse-ignore"
+                        >
+                          <a href="https://www.facebook.com/Chetcoffeeroaster"
+                            >โรงคั่วกาแฟเชษฐ์ Chet Coffee Roaster</a
+                          >
+                        </blockquote>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /row -->
+
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="card mb-4">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-sm-3">
+                        <p class="mb-0">Full Name</p>
+                      </div>
+                      <div class="col-sm-9">
+                        <p class="text-muted mb-0">Cherdsakun Chanlutin</p>
+                      </div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                      <div class="col-sm-3">
+                        <p class="mb-0">Email</p>
+                      </div>
+                      <div class="col-sm-9">
+                        <p class="text-muted mb-0">poydevelop@gmail.com</p>
+                      </div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                      <div class="col-sm-3">
+                        <p class="mb-0">Phone</p>
+                      </div>
+                      <div class="col-sm-9">
+                        <p class="text-muted mb-0">(088) 999-9999</p>
+                      </div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                      <div class="col-sm-3">
+                        <p class="mb-0">Mobile</p>
+                      </div>
+                      <div class="col-sm-9">
+                        <p class="text-muted mb-0">(+66) 990-9999</p>
+                      </div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                      <div class="col-sm-3">
+                        <p class="mb-0">Address</p>
+                      </div>
+                      <div class="col-sm-9">
+                        <p class="text-muted mb-0">
+                          Ubonratchathanee, Thailand
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="wrapper">
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+      <div><span class="dot"></span></div>
+    </div>
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"
+    ></script>
+    <script>
+      window.addEventListener("load", () => {
+        const preload = document.querySelector(".preload");
+        setTimeout(function () {
+          preload.classList.add("preload-finish");
+        }, 2000);
+      });
+    </script>
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/th_TH/sdk.js#xfbml=1&version=v18.0&appId=768559266656498"
+      nonce="5lwYVx0h"
+    ></script>
+  </body>
+</html>
